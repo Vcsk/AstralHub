@@ -13,7 +13,7 @@ else
 
 Notification:Notify(
     {Title = "Error", Description = "Game Not Supported!"},
-    {OutlineColor = Color3.fromRGB(255, 0, 0),Time = 5.5, Type = "default"}
+    {OutlineColor = Color3.fromRGB(128, 187, 219),Time = 5.5, Type = "default"}
 )
 
 end
