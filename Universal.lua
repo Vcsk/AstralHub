@@ -9,6 +9,8 @@ Notification:Notify(
     {OutlineColor = Color3.fromRGB(128, 187, 219),Time = 3, Type = "default"}
 )
 
+wait(.5)
+
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Vcsk/UiLibrary/main/KavoMob"))()
 local Window = Library.CreateLib("Astral Hub | Universal", "Ocean")
 
