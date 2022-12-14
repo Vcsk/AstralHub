@@ -15,6 +15,7 @@ Notification:Notify(
     {Title = "Error", Description = "Game Not Supported!"},
     {OutlineColor = Color3.fromRGB(128, 187, 219),Time = 5.5, Type = "default"}
 )
+wait(.5)
 Notification:Notify(
     {Title = "Astral Hub | Universal", Description = "Loaded!"},
     {OutlineColor = Color3.fromRGB(128, 187, 219),Time = 5.5, Type = "default"}
