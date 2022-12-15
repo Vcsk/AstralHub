@@ -9,6 +9,10 @@ elseif game.PlaceId == 155615604 then
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Vcsk/AstralHub/main/Games/Prison-Life/main.lua", true))()
 
+elseif game.PlaceId == 10679961467 then
+
+
+
 else
 
 Notification:Notify(
