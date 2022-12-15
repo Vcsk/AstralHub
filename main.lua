@@ -11,7 +11,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Vcsk/AstralHub/main/G
 
 elseif game.PlaceId == 10679961467 then
 
-
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Vcsk/AstralHub/main/Games/50-50-Pick-A-Door-Obby/main.lua", true))()
 
 else
 
