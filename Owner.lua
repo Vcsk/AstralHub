@@ -1,5 +1,5 @@
 return {
     ["vcsk0"] = true,
     ["TOXIC_SOLOZ"] = true,
-    [""] = true,
+    ["XXMALAYSIA_GGG"] = true,
 }
