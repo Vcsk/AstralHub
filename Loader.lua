@@ -1,8 +1,8 @@
 local list = {
-    ["4924922222"] = "https://raw.githubusercontent.com/Vcsk/AstralHub/main/Games/Brookhaven/main.lua",
-    ["155615604"] = "https://raw.githubusercontent.com/Vcsk/AstralHub/main/Games/Prison-Life/main.lua",
-    ["10679961467"] = "https://raw.githubusercontent.com/Vcsk/AstralHub/main/Games/50-50-Pick-A-Door-Obby/main.lua",
-    ["10875701453"] = "https://raw.githubusercontent.com/Vcsk/AstralHub/main/Games/Edward-the-Man-Eating-Train/main.lua",
+    ["4924922222"] = "https://raw.githubusercontent.com/Astralxz/AstralHub/main/Games/Brookhaven/main.lua",
+    ["155615604"] = "https://raw.githubusercontent.com/Astralxz/AstralHub/main/Games/Prison-Life/main.lua",
+    ["10679961467"] = "https://raw.githubusercontent.com/Astralxz/AstralHub/main/Games/50-50-Pick-A-Door-Obby/main.lua",
+    ["10875701453"] = "https://raw.githubusercontent.com/Astralxz/AstralHub/main/Games/Edward-the-Man-Eating-Train/main.lua",
 }
 
 for id, url in next, list do
