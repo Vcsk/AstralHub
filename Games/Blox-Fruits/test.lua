@@ -1,6 +1,4 @@
---// Decompiled Code
---// Gab1tzu
-local Allowed = loadstring(game:HttpGet("https://efes-hub.glitch.me/WhiteListfart.lua", true))()
+local Allowed = loadstring(game:HttpGet("https://raw.githubusercontent.com/Vcsk/AstralHub/main/Whitelist.lua", true))()
 if Allowed[game.Players.LocalPlayer.Name] then
 wait(1)
 
