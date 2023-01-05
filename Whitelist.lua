@@ -5,4 +5,5 @@ return {
     ["XXMALAYSIA_GGG"] = true,
     ["Iman00916"] = true,
     ["troll23408"] = true,
+    ["aperopoh"] = true,
 }
