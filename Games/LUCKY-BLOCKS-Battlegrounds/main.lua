@@ -143,7 +143,7 @@ s3:NewSlider("Fov","Field Of View",120,70, function(v)
 end)
 
 s3:NewToggle("Noclip","can go through wall", function(s)
-_G.Noclip = (s and true or false)
+_G.Noclip = s
 while _G.Noclip == true do
         game:GetService("RunService").Stepped:wait()
 	game.Players.LocalPlayer.Character.Head.CanCollide = false
@@ -152,7 +152,7 @@ end
 end)
 
 s3:NewToggle("Infinite Jump","Infinite Jump", function(s)
-_G.InfJ = (s and true or false)
+_G.InfJ = s
 game:GetService("UserInputService").JumpRequest:connect(function()
 	if _G.InfJ == true then
 		game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")
