@@ -1,5 +1,6 @@
 --// Free Source \\--
 
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local GameId = game.PlaceId
 local GameName = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name
 local plr = game:GetService("Players").LocalPlayer
@@ -7,8 +8,6 @@ local plrname = plr.Name
 local plrid = plr.UserId
 local plrage = plr.AccountAge
 local plrcount = #game.Players:GetPlayers()
-
-local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
 --//\\--
 
@@ -56,7 +55,7 @@ local s3 = t3:NewSection("Misc")
 
 s1:NewButton("User : " ..plrname.. " | " ..plrid)
 s1:NewButton("Game : " ..GameName.. " | " ..GameId)
-local button1_ = s1:NewButton("Account Age : " ..plrage.. " Days")
+s1:NewButton("Account Age : " ..plrage.. " Days")
 s1:NewButton("Players ingame : " ..plrcount.. "/8")
 s1:NewKeybind("Toggle Keybind", "Toggle", Enum.KeyCode.F, function()
 	Library:ToggleUI()
