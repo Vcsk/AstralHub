@@ -1,4 +1,4 @@
---// Free Source \\--
+--// Open Source \\--
 
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local GameId = game.PlaceId
