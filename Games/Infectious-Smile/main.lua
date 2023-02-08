@@ -49,3 +49,10 @@ end)
 TeleportTab:CreateButton("Mountain Collapse", function()
 	char.HumanoidRootPart.CFrame = CFrame.new(-345.792847, 3, 24.1423454, 0.027945552, -5.02293105e-08, -0.99960947, 8.1355374e-08, 1, -4.79745239e-08, 0.99960947, -7.99829252e-08, 0.027945552)
 end)
+
+TeleportTab:CreateButton("Random Player", function()
+	local randomPlayer = plrs:GetPlayers()
+	[math.random(1, #plrs:GetPlayers())]
+	
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(randomPlayer.Character.HumanoidRootPart.Position.X, randomPlayer.Character.HumanoidRootPart.Position.Y, randomPlayer.Character.HumanoidRootPart.Position.Z))
+end)
