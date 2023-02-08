@@ -15,9 +15,10 @@ local char = plr.Character
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Vcsk/UI-Library/main/Source/Wizard.lua"))()
 local Window = Library:NewWindow("Infectious Smile")
 
-local Combat = Window:NewSection("Combat")
+local CombatTab = Window:NewSection("Combat")
+local TeleportTab = Window:NewSection("Teleport")
 
-Combat:CreateToggle("Hit Aura", function(state)
+CombatTab:CreateToggle("Hit Aura", function(state)
 	getgenv().hitaura = state
 
 	while hitaura do wait(3)
@@ -25,7 +26,7 @@ Combat:CreateToggle("Hit Aura", function(state)
 	end
 end)
 
-Combat:CreateToggle("Infect Aura", function(state)
+CombatTab:CreateToggle("Infect Aura", function(state)
     getgenv().infectaura = state
 
 	while infectaura do wait(.1)
@@ -33,7 +34,7 @@ Combat:CreateToggle("Infect Aura", function(state)
 	end
 end)
 
-Combat:CreateToggle("No Slowdown", function(state)
+CombatTab:CreateToggle("No Slowdown", function(state)
 	getgenv().loopwalkspeed = state
 
 	while loopwalkspeed do wait(.5)
@@ -41,6 +42,10 @@ Combat:CreateToggle("No Slowdown", function(state)
 	end
 end)
 
-Combat:CreateButton("Suicide", function()
+CombatTab:CreateButton("Suicide", function()
 	game:GetService("Players").LocalPlayer.Character.Ragdoll.Ragdoll:FireServer()
+end)
+
+TeleportTab:CreateButton("Mountain Collapse", function()
+	char.HumanoidRootPart.CFrame = CFrame.new(-345.792847, 3, 24.1423454, 0.027945552, -5.02293105e-08, -0.99960947, 8.1355374e-08, 1, -4.79745239e-08, 0.99960947, -7.99829252e-08, 0.027945552)
 end)
