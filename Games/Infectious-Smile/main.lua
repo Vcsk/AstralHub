@@ -2,7 +2,7 @@ local plrs = game:GetService("Players")
 local plr = plrs.LocalPlayer
 local char = plr.Character
 
-local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/Vcsk/UI-Library/main/Source/Wizard.lua"))()
 local Window = Library:NewWindow("Infectious Smile")
 
 local Combat = Window:NewSection("Combat")
