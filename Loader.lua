@@ -14,8 +14,8 @@ local list = {
     [""] = "",
 }
 
-for id, url in next, list do
-    if string.find(id, game.PlaceId) then
-        loadstring(game:HttpGet(url))(); break
-    end
+if list[game.PlaceId] ~= nil then
+    loadstring(game:HttpGet(list[game.PlaceId]))()
+else
+    
 end
