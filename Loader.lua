@@ -18,9 +18,9 @@ if list[game.PlaceId] ~= nil then
     loadstring(game:HttpGet(list[game.PlaceId]))()
 else
     local NotificationHolder = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Module.Lua"))()
-local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Client.Lua"))()
-Notification:Notify(
-    {Title = "ERROR", Description = "The game you're playing not supported Astral Hub"},
-    {OutlineColor = Color3.fromRGB(128, 187, 219),Time = 5, Type = "default"}
-)
+    local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Client.Lua"))()
+    Notification:Notify(
+        {Title = "ERROR", Description = "The game you're playing not supported Astral Hub"},
+        {OutlineColor = Color3.fromRGB(128, 187, 219),Time = 10, Type = "default"}
+    )
 end
