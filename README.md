@@ -11,7 +11,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Vcsk/AstralHub/main/L
 ```
 
 ### Games are supported
-Current: 7
+Current: 8
 
 - Prison Life
 - 50/50 Pick A Door Obby
@@ -19,6 +19,7 @@ Current: 7
 - Legends Of Speed
 - Pop It Trading
 - LUCKY BLOCKS Battlegrounds
+- Infectious Smile
 - Strongest Anime Squad Simulator
 
 More soon!
