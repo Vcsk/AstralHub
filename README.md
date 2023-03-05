@@ -25,6 +25,6 @@ Current: 8
 More soon!
 
 ## Discord
-My discord: !vcsk0#1516
+- My discord: !vcsk0#1516
 Join my discord server:
 https://discord.gg/zYqACu65Vw
