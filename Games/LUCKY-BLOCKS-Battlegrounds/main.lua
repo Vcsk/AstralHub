@@ -99,7 +99,7 @@ s2:NewButton("Galaxy Block","No Info", function()
     end
 end)
 
-s3:NewButton("Hitbox Expander","No Info, function()
+s3:NewButton("Hitbox Expander","No Info", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Vcsk/RobloxScripts/main/HitboxExpander.lua"))()
 end)
 
