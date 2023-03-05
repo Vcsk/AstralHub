@@ -65,9 +65,8 @@ s1:NewLabel("Updates!")
 
 s1:NewButton("[+] Released")
 
-local AmountOfBlocks
 s2:NewTextBox("Amount Of Blocks","No Info", function(txt)
-    AmountOfBlocks = txt
+    getgenv().AmountOfBlocks = txt
 end)
 
 s2:NewButton("Lucky Block","No Info", function()
