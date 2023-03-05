@@ -26,5 +26,4 @@ More soon!
 
 ## Discord
 - My discord: !vcsk0#1516
-Join my discord server:
-https://discord.gg/zYqACu65Vw
+- Need help? Join my discord server: https://discord.gg/zYqACu65Vw or DM !vcsk0#1516
