@@ -100,29 +100,8 @@ s2:NewButton("Galaxy Block","No Info", function()
     end
 end)
 
-local HitboxSize
-s3:NewTextBox("Hitbox Size","No Info", function(txt)
-HitboxSize = txt
-end)
-
-local Hitbox
-s3:NewToggle("Hitbox","No Info", function(v)
-Hitbox = v
-    game:GetService('RunService').RenderStepped:connect(function()
-		if Hitbox == true then
-			for i,v in next, game:GetService('Players'):GetPlayers() do
-				if v.Name ~= game:GetService('Players').LocalPlayer.Name then
-					pcall(function()
-						v.Character.HumanoidRootPart.Size = Vector3.new(HitboxSize,HitboxSize,HitboxSize)
-						v.Character.HumanoidRootPart.Transparency = 0.7
-						v.Character.HumanoidRootPart.BrickColor = BrickColor.new("Really black")
-						v.Character.HumanoidRootPart.Material = "Neon"
-						v.Character.HumanoidRootPart.CanCollide = false
-					end)
-				end
-			end
-		end
-	end)
+s3:NewButton("Hitbox Expander","No Info, function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Vcsk/RobloxScripts/main/HitboxExpander.lua"))()
 end)
 
 s3:NewLabel("Local Player")
