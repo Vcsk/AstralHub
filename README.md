@@ -1,7 +1,7 @@
 # Astral Hub | Main
 
 ```lua
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Vcsk/AstralHub/main/Main.lua", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Vcsk/AstralHub/main/Main.lua"))()
 ```
 
 # Astral Hub | Loader
