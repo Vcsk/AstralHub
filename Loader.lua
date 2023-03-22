@@ -9,7 +9,7 @@ local list = {
     ["5985232436"] = "https://raw.githubusercontent.com/Vcsk/AstralHub/main/Games/Infectious-Smile/main.lua",
     ["11250063361"] = "https://raw.githubusercontent.com/Vcsk/AstralHub/main/Games/StrongestAnimeSquadSimulator/main.lua",
     ["6441847031"] = "https://raw.githubusercontent.com/Vcsk/AstralHub/main/Games/CHAOS/main.lua",
-    [""] = "",
+    ["3851622790"] = "https://raw.githubusercontent.com/Vcsk/AstralHub/main/Games/BreakIn/main.lua",
     [""] = "",
     [""] = "",
 }
