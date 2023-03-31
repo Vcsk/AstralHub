@@ -11,7 +11,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Vcsk/AstralHub/main/L
 ```
 
 ### Games are supported
-Current: 9
+Current: 10
 
 - Prison Life
 - 50/50 Pick A Door Obby
@@ -22,6 +22,7 @@ Current: 9
 - Infectious Smile
 - Strongest Anime Squad Simulator
 - CHAOS
+- Ninja Legends
 
 More soon!
 
