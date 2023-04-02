@@ -23,6 +23,7 @@ Current: 10
 - Strongest Anime Squad Simulator
 - CHAOS
 - Ninja Legends
+- Muscle Legends
 
 More soon!
 
