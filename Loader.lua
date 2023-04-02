@@ -12,6 +12,7 @@ local list = {
     ["3851622790"] = "https://raw.githubusercontent.com/Vcsk/AstralHub/main/Games/BreakIn/main.lua",
     ["4620170611"] = "https://raw.githubusercontent.com/Vcsk/AstralHub/main/Games/BreakIn/main.lua",
     ["3956818381"] = "https://raw.githubusercontent.com/Vcsk/AstralHub/main/Games/NinjaLegends/main.lua",
+    ["3623096087"] = "https://raw.githubusercontent.com/Vcsk/AstralHub/main/Games/MuscleLegends/main.lua",
 }
 
 for id, url in next, list do
