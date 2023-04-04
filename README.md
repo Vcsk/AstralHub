@@ -11,7 +11,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Vcsk/AstralHub/main/L
 ```
 
 ### Games are supported
-Current: 11
+Current: 12
 
 - Prison Life
 - 50/50 Pick A Door Obby
