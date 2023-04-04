@@ -21,6 +21,7 @@ Current: 11
 - LUCKY BLOCKS Battlegrounds
 - Infectious Smile
 - Strongest Anime Squad Simulator
+- Break In (Story)
 - CHAOS
 - Ninja Legends
 - Muscle Legends
